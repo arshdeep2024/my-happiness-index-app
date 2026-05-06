@@ -27,7 +27,7 @@ GIF_DIR = os.path.join(BASE_DIR, "gifs")
 # PAGE CONFIG
 # =====================================================
 st.set_page_config(
-    page_title="AI Interactive Feedback System",
+    page_title="Feedback for our Project/Demo 🤔",
     layout="centered"
 )
 
@@ -61,13 +61,13 @@ def final_gif(score):
 
     val = score * 100
 
-    if val < 30:
-        return "anger.gif"
+    #if val < 30:
+    #    return "anger.gif"
 
-    elif val < 40:
+    if val < 20:
         return "sad.gif"
 
-    elif val < 60:
+    elif val < 50:
         return "neutral.gif"
 
     else:
@@ -88,7 +88,7 @@ if "completed" not in st.session_state:
 # =====================================================
 # TITLE
 # =====================================================
-st.title("AI-Powered Interactive Feedback System 🌱")
+st.title("Feedback for our Project/Demo 🤔")
 
 # =====================================================
 # HOME PAGE
@@ -99,7 +99,7 @@ if st.session_state.current_q == 0 and not st.session_state.completed:
 
     st.markdown(
         """
-        ### Answer 2 quick questions and let AI analyze your response.
+        ### Answer 2 quick questions and help us improve our project.
         """
     )
 
@@ -123,7 +123,7 @@ if st.session_state.completed:
 
     st.markdown("## with our project")
 
-    st.markdown("### Thanks for the feedback 🌱")
+    st.markdown("### Thanks for the feedback")
 
     if st.button("Give Another Feedback"):
 
