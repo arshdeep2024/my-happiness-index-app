@@ -40,11 +40,8 @@ FACE_CLASSES = ["Surprise","Fear","Disgust","Happy","Sad","Anger","Neutral"]
 TEXT_CLASSES = ["happy","sad","angry","fear","surprise","neutral"]
 
 QUESTIONS = [
-    "How do you feel about your work environment?",
-    "Do you feel valued and appreciated at your workplace?",
-    "How satisfied are you with your work-life balance?",
-    "Do you enjoy your daily tasks and responsibilities?",
-    "Would you recommend your workplace to others?"
+    "How did our project/demo make you feel?",
+    "What feature or idea would you love to see added in the future?"
 ]
 
 # =====================================================
