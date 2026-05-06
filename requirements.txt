@@ -1,0 +1,8 @@
+streamlit
+torch
+pandas
+matplotlib
+numpy
+opencv-python-headless
+transformers
+vosk
